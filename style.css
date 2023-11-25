@@ -1,0 +1,134 @@
+@media (min-width: 768px){
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 100vh;
+        background-color: cornflowerblue;
+    }
+    
+    .lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: flex-start; 
+        background-color:black;
+        padding: 30px;
+        height: 100%; 
+        font-size:60px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        display: list-item;
+        
+    
+    }
+    
+    li {
+        padding: 10px;
+        margin: 30px 0; 
+        height:50%;
+        font-size: 30px;
+        color: cornflowerblue;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .ll{
+        display:flexbox;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: flex-start; 
+        background-color:black;
+        padding: 20px;
+        height: 100%; 
+    }
+    .logo, img{
+        width: 200px;
+    
+        
+    }
+    .h1{
+        width: 100%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 100px;
+        color:blue;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin-top: 5%;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: cornflowerblue;
+    }
+    a{
+        text-decoration: none;
+    }
+    .icones i{
+        font-size: 50px;
+        color:blue;
+        margin: 0 100px;
+        text-align: center;
+    }
+    .icones{
+        margin: 0 10px;
+        text-align: center;
+        color: blue;
+    }
+    .corpo{
+        width: 100%;
+        margin-left: 2%;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        background-color: black;
+        border-radius: 20px;
+        padding: 0 10px ;
+    }
+    .img {
+        display: grid;
+        margin-right: 0;
+        align-items: center;
+        animation: float 1.5s infinite ease-in-out;
+        height: 100%;
+        
+    }
+    .menu, li a{
+        color: blue;
+    }
+    .flutuando{
+        width: 470px;
+    }
+    @keyframes float{
+        50% {
+            transform: translateY(-10%);
+        }
+    }
+
+    body{
+margin: 0;
+padding: 0;
+display: flex;
+height: 90vh;
+background-color: cornflowerblue;
+ }
+ .h1{
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color:blue;
+    text-align: center;
+}
+
+ }
+ body{
+margin: 0;
+padding: 0;
+display: flex;
+height: 100vh;
+background-color: cornflowerblue;
+width: 100%;
+ }
+ 
